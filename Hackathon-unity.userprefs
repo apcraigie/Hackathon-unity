@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{3DD66843-1878-9E31-7F41-9C43D0288A87}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WebcamStream.cs">
+    <Files>
+      <File FileName="Assets/SteamVR/Plugins/openvr_api.cs" Line="4543" Column="1" />
+      <File FileName="Assets/Scripts/WebcamStream.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Hackathon-unity PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
