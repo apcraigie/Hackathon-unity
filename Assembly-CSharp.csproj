@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{04C84EC0-2F9D-F6CD-0037-72BF497DABA7}</ProjectGuid>
+    <ProjectGuid>{535A2003-0ED4-D8AB-86D3-B108ED9FAFD1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
      <Compile Include="Assets\Scripts\LaserPointer.cs" />
+     <Compile Include="Assets\Scripts\port setup\Sending.cs" />
      <Compile Include="Assets\Scripts\ViveControllerInputTest.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
