@@ -51,10 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Arduino\Sendingtake2.cs" />
      <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
      <Compile Include="Assets\Scripts\LaserPointer.cs" />
+     <Compile Include="Assets\Scripts\MovementController.cs" />
      <Compile Include="Assets\Scripts\port setup\Sending.cs" />
+     <Compile Include="Assets\Scripts\RightArmControl.cs" />
      <Compile Include="Assets\Scripts\ViveControllerInputTest.cs" />
+     <Compile Include="Assets\Scripts\WebcamStream.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -161,7 +165,6 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
-     <None Include="Assets\Arduino\holder.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
@@ -169,6 +172,9 @@
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>C:/Users/VR Team/Desktop/Hackathon-unity/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
