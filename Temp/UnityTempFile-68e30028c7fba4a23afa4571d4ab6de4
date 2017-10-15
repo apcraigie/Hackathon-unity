@@ -104,6 +104,9 @@
 -define:CROSS_PLATFORM_INPUT
 'Assets/Scripts/ControllerGrabObject.cs'
 'Assets/Scripts/LaserPointer.cs'
+'Assets/Scripts/MovementController.cs'
+'Assets/Scripts/port setup/Sending.cs'
+'Assets/Scripts/RightArmControl.cs'
 'Assets/Scripts/ViveControllerInputTest.cs'
 'Assets/Scripts/WebcamStream.cs'
 'Assets/SteamVR/Extras/SteamVR_GazeTracker.cs'

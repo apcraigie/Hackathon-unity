@@ -104,7 +104,9 @@
 -define:CROSS_PLATFORM_INPUT
 'Assets/Scripts/ControllerGrabObject.cs'
 'Assets/Scripts/LaserPointer.cs'
+'Assets/Scripts/port setup/Sending.cs'
 'Assets/Scripts/ViveControllerInputTest.cs'
+'Assets/Scripts/WebcamStream.cs'
 'Assets/SteamVR/Extras/SteamVR_GazeTracker.cs'
 'Assets/SteamVR/Extras/SteamVR_LaserPointer.cs'
 'Assets/SteamVR/Extras/SteamVR_Teleporter.cs'
@@ -207,7 +209,6 @@
 'Assets/SteamVR/Scripts/SteamVR_TrackedObject.cs'
 'Assets/SteamVR/Scripts/SteamVR_UpdatePoses.cs'
 'Assets/SteamVR/Scripts/SteamVR_Utils.cs'
-'Assets/WebcamStream.cs'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
