@@ -6,22 +6,26 @@ using System.IO.Ports;
 public class Sendingtake2 : MonoBehaviour {
 
 	//public static SerialPort sp = new SerialPort("COM4", 9600, Parity.None, 8, StopBits.One);
-	public static SerialPort sp = new SerialPort("COM7", 9600);
-	public string message2;
+	public static SerialPort sp = new SerialPort("COM6", 115200);
 
 	// Use this for initialization
 	void Start () {
 		OpenConnection();
 	}
 
-	// Update is called once per frame
-	void Update () {
 
-		if (Input.GetKeyDown (KeyCode.O)) {
-			sendYellow ();
+	void Update(){
+		if (Input.GetKeyDown (KeyCode.W)) {
+			moveForward ();
 		}
-		if (Input.GetKeyDown (KeyCode.F)) {
-			sendGreen ();
+		if (Input.GetKeyDown (KeyCode.S)) {
+			moveBack ();
+		}
+		if (Input.GetKeyDown (KeyCode.D)) {
+			turnRight ();
+		}
+		if (Input.GetKeyDown (KeyCode.A)) {
+			turnLeft ();
 		}
 	}
 
@@ -60,12 +64,45 @@ public class Sendingtake2 : MonoBehaviour {
 		sp.Close();
 	}
 
-	public static void sendYellow(){
-		sp.Write("o");
+	public static void moveForward()
+	{
+		char temp = (char)0;
+		sp.Write (temp.ToString());
+	}
+	public static void moveBack()
+	{
+		char temp = (char)1;
+		sp.Write (temp.ToString());
+	}
+	public static void turnLeft()
+	{
+		char temp = (char)2;
+		sp.Write (temp.ToString());
+	}
+	public static void turnRight()
+	{
+		char temp = (char)3;
+		sp.Write (temp.ToString());
+	}
+	public static void armUp()
+	{
+		char temp = (char)4;
+		sp.Write (temp.ToString());
+	}
+	public static void armDown()
+	{
+		char temp = (char)5;
+		sp.Write (temp.ToString());
 	}
 
-	public static void sendGreen(){
-		sp.Write("f");
-		//sp.Write("\n");
+	public static void magnetOn()
+	{
+		char temp = (char)6;
+		sp.Write (temp.ToString());
+	}
+	public static void magnetOff()
+	{
+		char temp = (char)7;
+		sp.Write (temp.ToString());
 	}
 }

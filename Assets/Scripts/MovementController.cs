@@ -23,14 +23,25 @@ public class MovementController : MonoBehaviour
         // 1
         if (Controller.GetAxis() != Vector2.zero)
         {
-            //Up Moves Robot Forwards
+			if (Controller.GetAxis ().y > 0) {
+				ViveCommands.moveForward ();
+			}
+			if (Controller.GetAxis ().y < 0) {
+				//Down Move Robot Backwards
+				ViveCommands.moveBack ();
+			}
 
-            //Down Move Robot Backwards
+			if (Controller.GetAxis ().x > 0) {
+				//Right Rotate Robot to the Right
+				ViveCommands.turnRight ();
+			}
 
-            //Right Rotate Robot to the Right
+			if (Controller.GetAxis ().x < 0) {
+				//Left Rotate Robot to the Left
+				ViveCommands.turnLeft ();
+			}
 
-            //Left Rotate Robot to the Left
-            Debug.Log(gameObject.name + Controller.GetAxis());
+          //  Debug.Log(gameObject.name + Controller.GetAxis());
         }
 
         // 2

@@ -52,12 +52,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Arduino\Sendingtake2.cs" />
-     <Compile Include="Assets\Scripts\ControllerGrabObject.cs" />
-     <Compile Include="Assets\Scripts\LaserPointer.cs" />
      <Compile Include="Assets\Scripts\MovementController.cs" />
-     <Compile Include="Assets\Scripts\port setup\Sending.cs" />
+     <Compile Include="Assets\Scripts\old scripts\ControllerGrabObject.cs" />
+     <Compile Include="Assets\Scripts\old scripts\LaserPointer.cs" />
+     <Compile Include="Assets\Scripts\old scripts\ViveControllerInputTest.cs" />
      <Compile Include="Assets\Scripts\RightArmControl.cs" />
-     <Compile Include="Assets\Scripts\ViveControllerInputTest.cs" />
+     <Compile Include="Assets\Scripts\ViveCommands.cs" />
      <Compile Include="Assets\Scripts\WebcamStream.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

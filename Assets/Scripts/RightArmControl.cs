@@ -24,20 +24,19 @@ public class RightArmControl : MonoBehaviour
         if (Controller.GetAxis() != Vector2.zero)
         {
             //NA
-            Debug.Log(gameObject.name + Controller.GetAxis());
+          //  Debug.Log(gameObject.name + Controller.GetAxis());
         }
 
         // 2
         if (Controller.GetHairTriggerDown())
         {
-            Debug.Log(gameObject.name + " Trigger Press");
-            //Lift Right Arm
+			ViveCommands.magnetArm ();
         }
 
         // 3
         if (Controller.GetHairTriggerUp())
         {
-            Debug.Log(gameObject.name + " Trigger Release");
+           // Debug.Log(gameObject.name + " Trigger Release");
             //Release Right Arm
         }
 
@@ -46,15 +45,18 @@ public class RightArmControl : MonoBehaviour
         // 4
         if (Controller.GetPressDown(SteamVR_Controller.ButtonMask.Grip))
         {
-            Debug.Log(gameObject.name + " Grip Press");
+            // Debug.Log(gameObject.name + " Grip Press");
             //Magnet ON
+			ViveCommands.magnetOn();
         }
 
         // 5
         if (Controller.GetPressUp(SteamVR_Controller.ButtonMask.Grip))
         {
-            Debug.Log(gameObject.name + " Grip Release");
-            //Magnet OFF
+            //Debug.Log(gameObject.name + " Grip Release");
+
+			//Magnet OFF
+			ViveCommands.magnetOn ();
         }
     }
 }
